@@ -423,6 +423,7 @@ a:hover {
   font-weight: 400;
   opacity: 0.9;
   margin-bottom: var(--space-sm);
+  color: var(--text-white);
 }
 
 .name {
@@ -431,6 +432,7 @@ a:hover {
   font-weight: 800;
   margin-bottom: var(--space-md);
   line-height: 1;
+  color: var(--text-white);
 }
 
 .typing-container {
@@ -441,13 +443,13 @@ a:hover {
 .typing-text {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 600;
-  color: #ffffff;
+  color: #fbbf24;
   display: inline-block;
 }
 
 .cursor {
   animation: blink 1s infinite;
-  color: #ffffff;
+  color: #fbbf24;
 }
 
 @keyframes blink {
@@ -461,7 +463,6 @@ a:hover {
   opacity: 0.95;
   margin-bottom: var(--space-2xl);
   max-width: 600px;
-  color: var(--text-white);
 }
 
 .hero-buttons {
