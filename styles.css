@@ -441,13 +441,13 @@ a:hover {
 .typing-text {
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 600;
-  color: #fbbf24;
+  color: #ffffff;
   display: inline-block;
 }
 
 .cursor {
   animation: blink 1s infinite;
-  color: #fbbf24;
+  color: #ffffff;
 }
 
 @keyframes blink {
@@ -461,6 +461,7 @@ a:hover {
   opacity: 0.95;
   margin-bottom: var(--space-2xl);
   max-width: 600px;
+  color: var(--text-white);
 }
 
 .hero-buttons {
