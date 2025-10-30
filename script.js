@@ -685,9 +685,9 @@ const criticalImages = [
 criticalImages.forEach(preloadImage);
 
 // ===== LOG INITIALIZATION =====
-console.log('%c🚀 Ronald Zani Portfolio', 'color: #667eea; font-size: 20px; font-weight: bold;');
+console.log('%c🚀 Raymond Singa Portfolio', 'color: #667eea; font-size: 20px; font-weight: bold;');
 console.log('%cBuilt with ❤️ using HTML, CSS, and JavaScript', 'color: #764ba2; font-size: 12px;');
-console.log('%cInterested in the code? Check out my GitHub: https://github.com/keahzani', 'color: #10b981; font-size: 12px;');
+console.log('%cInterested in the code? Check out my GitHub: https://github.com/Nyota18', 'color: #10b981; font-size: 12px;');
 
 // ===== SERVICE WORKER REGISTRATION (Optional - for PWA) =====
 if ('serviceWorker' in navigator) {
