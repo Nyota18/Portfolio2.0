@@ -557,9 +557,9 @@ document.querySelectorAll('a[target="_blank"]').forEach(link => {
 // ===== PAGE VISIBILITY API =====
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) {
-    document.title = '👋 Come back! - Ronald Zani';
+    document.title = 'Lets Engage! - Raymond Singa';
   } else {
-    document.title = 'Ronald Zani | Technology Enthusiast & Developer';
+    document.title = 'Raymond Singa | Technology Enthusiast & Developer';
   }
 });
 
