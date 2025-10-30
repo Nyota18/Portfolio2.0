@@ -557,7 +557,7 @@ document.querySelectorAll('a[target="_blank"]').forEach(link => {
 // ===== PAGE VISIBILITY API =====
 document.addEventListener('visibilitychange', () => {
   if (document.hidden) {
-    document.title = 'Lets Engage! - Raymond Singa';
+    document.title = 'Lets Engage - Raymond Singa';
   } else {
     document.title = 'Raymond Singa | Technology Enthusiast & Developer';
   }
